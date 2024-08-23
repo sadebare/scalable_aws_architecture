@@ -116,3 +116,4 @@ The architecture is designed for scalability, high availability, and security. I
 -   Monitoring: Set up monitoring and alerting using AWS CloudWatch to track the health and performance of the infrastructure.
 -   CI/CD Pipeline: Integrate a CI/CD pipeline to automate deployment and management tasks.
 -   S3 State file and versioning to improve collaboration and maintain terraform state.
+
