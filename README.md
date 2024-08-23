@@ -10,7 +10,7 @@ This repository contains Terraform scripts to set up a scalable and highly avail
   - [EC2 Instance with Nginx](#ec2-instance-with-nginx)
   - [RDS MySQL Database](#rds-mysql-database)
   - [Application Load Balancer (ALB)](#application-load-balancer-alb)
-  - [Auto Scaling Group (ASG)](#auto-scaling-group-(asg))
+  - [Auto Scaling Group (ASG)](#auto-scaling-group)
   - [S3 Bucket for EC2 access](#s3-bucket-for-ec2-access)
 - [Setup and Usage](#setup-and-usage)
 - [Backup and Recovery](#backup-and-recovery)
@@ -65,7 +65,7 @@ The architecture is designed for scalability, high availability, and security. I
 ![app_load_balancer](./images/alb.png)
 - Access application at load balancer url
 ![application](./images/app.png)
-### Auto Scaling Group (ASG)
+### Auto Scaling Group
 
 - **Purpose**: The ASG ensures that the number of EC2 instances adjusts automatically based on demand. It maintains high availability and consistent performance.
 - **Configuration**: The ASG is configured with a minimum and maximum number of instances, scaling policies, and CloudWatch alarms to trigger scaling events.
